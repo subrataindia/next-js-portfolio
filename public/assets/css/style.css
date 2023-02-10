@@ -887,6 +887,7 @@ main {
   #PORTFOLIO
 \*-----------------------------------*/
 
+
 .filter-select-box {
   position: relative;
   margin-bottom: 25px;
@@ -2031,6 +2032,7 @@ textarea.form-input::-webkit-resizer {
   }
 }
 
-.contact-link {
+
+.contact-link{
   font-size: 0.9rem;
 }
