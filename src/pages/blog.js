@@ -10,9 +10,9 @@ const blog = () => {
       <section className="blog-posts">
         <ul className="blog-posts-list">
           {data.blog.map(
-            (singleblog) =>
+            (singleblog, index) =>
               singleblog?.href && (
-                <li className="blog-post-item">
+                <li className="blog-post-item" key={index.toString()}>
                   <a
                     href={singleblog.href}
                     target="_blank"
@@ -29,7 +29,7 @@ const blog = () => {
                       <div className="blog-meta">
                         <p className="blog-category">{singleblog.category}</p>
                         <span className="dot"></span>
-                        <time datetime="2021-09-02">{singleblog.date}</time>
+                        <time>{singleblog.date}</time>
                       </div>
                       <h3 className="h3 blog-item-title">{singleblog.title}</h3>
                       <p className="blog-text">{singleblog.description}</p>

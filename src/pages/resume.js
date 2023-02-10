@@ -20,9 +20,9 @@ const Resume = () => {
 
         <ol className="timeline-list">
           {constants.experience.map(
-            (data) =>
+            (data, index) =>
               data && (
-                <li className="timeline-item">
+                <li className="timeline-item" key={index.toString()}>
                   <h4 className="h4 timeline-item-title">
                     {data.name && `${data.name} - (${data.company})`}
                   </h4>

@@ -15,12 +15,13 @@ function Sidebar() {
     <aside className="sidebar" data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <Image
+          {/* <Image
             src="/assets/images/profile.jpg"
             alt={`${data.personal.name}`}
             width={80}
             height={130}
-          />
+          /> */}
+          <img src="./assets/images/profile.jpg" alt="Subrata Das" width="80" />
         </figure>
 
         <div className="info-content">

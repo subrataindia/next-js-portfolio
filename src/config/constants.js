@@ -37,7 +37,22 @@ const data = {
     {
       name: "Team Lead",
       company: "Sahara India",
-      period: "Apr 2004 - Jan 2016",
+      period: "May 2011 - Jan 2016",
+    },
+    {
+      name: "Sr. Officer",
+      company: "Sahara India",
+      period: "May 2007 - Apr 2011",
+    },
+    {
+      name: "Computer Officer",
+      company: "Sahara India",
+      period: "Apr 2004 - Apr 2007",
+    },
+    {
+      name: "C Programming Instructor",
+      company: "LCC, Aska",
+      period: "Apr 1996 - Mar 2004",
     },
     {
       name: "MSc-IT",
@@ -79,6 +94,20 @@ const data = {
       date: "",
       title: "",
       description: "",
+    },
+  ],
+  whatido: [
+    {
+      title: "Mobile App Development",
+      icon: "./assets/images/icon-app.svg",
+      description:
+        " Write reusable, clean scalable code and manage coding standards. Integrated several third-party frameworks like Firebase, Google Ads, Facebook Ads, and several payment gateways like Stripe, Paypal, etc.",
+    },
+    {
+      title: "Software Development Training",
+      icon: "./assets/images/icon-dev.svg",
+      description:
+        "  I am Teacher 👨‍🏫 by heart 💖. Love spreading my knowledge when ever get free time ⌚.",
     },
   ],
 };
