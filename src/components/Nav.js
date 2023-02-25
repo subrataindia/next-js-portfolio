@@ -8,18 +8,13 @@ const Nav = () => {
     <nav className="navbar">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <button
-            className="navbar-link active"
-            data-nav-link
-            onClick={() => router.push("/")}
-          >
+          <button className="navbar-link" onClick={() => router.push("/")}>
             About
           </button>
         </li>
         <li className="navbar-item ">
           <button
-            className="navbar-link  active"
-            data-nav-link
+            className="navbar-link "
             onClick={() => router.push("/resume")}
           >
             Resume
@@ -27,19 +22,14 @@ const Nav = () => {
         </li>
         <li className="navbar-item ">
           <button
-            className="navbar-link  active"
-            data-nav-link
+            className="navbar-link "
             onClick={() => router.push("/projects")}
           >
             Projects
           </button>
         </li>
         <li className="navbar-item ">
-          <button
-            className="navbar-link  active"
-            data-nav-link
-            onClick={() => router.push("/blog")}
-          >
+          <button className="navbar-link " onClick={() => router.push("/blog")}>
             Blog
           </button>
         </li>

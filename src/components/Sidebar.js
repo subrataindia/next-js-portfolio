@@ -30,32 +30,53 @@ function Sidebar() {
           </h1>
 
           <div className="profile-tabs">
-            <p className="title">React Native Developer</p>
-            <a href="#" target="_blank" rel="noopener">
-              <p className="title">Download Resume</p>
-            </a>
+            <p className="title">Remote React Native Developer</p>
+          </div>
+          <div style={{ margin: "10px 0px 10px 0px" }}>
+            <hr />
+          </div>
+          <div className="profile-tabs">
+            <p className="title">
+              React Native, TypeScript, JavaScript, Redux, Mobx, Firebase, Jest,
+              SQLite, React, NextJS, Java For Android
+            </p>
           </div>
         </div>
-        <ul className="social-list smallscreen-hide">
+        <ul className="social-list">
           <li className="social-item">
-            <a href="#" className="social-link" target="_blank" rel="noopener">
+            <a
+              href={data.personal.github}
+              className="social-link"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IoLogoGithub />
             </a>
           </li>
           <li className="social-item">
-            <a href="#" className="social-link" target="_blank" rel="noopener">
+            <a
+              href={data.personal.twitter}
+              className="social-link"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IoLogoTwitter />
             </a>
           </li>
           <li className="social-item">
-            <a href="#" className="social-link" target="_blank" rel="noopener">
+            <a
+              href={data.personal.linkedin}
+              className="social-link"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IoLogoLinkedin />
             </a>
           </li>
         </ul>
       </div>
-      <div className="sidebar-info_more">
-        <div className="separator"></div>
+      <div className="sidebar-info">
+        <div className="separator mediumscreen-hide smallscreen-hide"></div>
         <ul className="contacts-list">
           <li className="contact-item">
             <div className="icon-box">
@@ -78,7 +99,7 @@ function Sidebar() {
             </div>
           </li>
         </ul>
-        <div className="separator"></div>
+        <div className="separator  mediumscreen-hide smallscreen-hide"></div>
       </div>
     </aside>
   );

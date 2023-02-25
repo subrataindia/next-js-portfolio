@@ -7,6 +7,10 @@ const data = {
     qual: "MSc-IT",
     email: "codingsubrata@gmail.com",
     location: "Rayagada, Odisha, India-765001.",
+    github: "https://github.com/subrataindia",
+    linkedin: "https://www.linkedin.com/in/subrata-ku-das/",
+    twitter: "https://twitter.com/codingSubrata",
+    resume: "https://google.drive",
   },
   experience: [
     {
@@ -60,6 +64,50 @@ const data = {
       period: "2011 - 2013",
     },
   ],
+  education: [
+    {
+      name: "MTech-Ai & ML",
+      company: "Mangalyatana University",
+      period: "2022 - 2024",
+    },
+    {
+      name: "MSc-IT",
+      company: "Punjab Technical University",
+      period: "2011 - 2013",
+    },
+    {
+      name: "BSc-IT",
+      company: "Punjab Technical University",
+      period: "2009 - 2011",
+    },
+  ],
+  certification: [
+    {
+      name: "JavaScript Certification",
+      company: "HackerRank",
+      period: "Feb 2023",
+      image:
+        "https://camo.githubusercontent.com/8d9764b62534e02fd2b5acebf02b3f159fa1279f92e8c4ba127fdc42870f885a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6e656f73746174732e61707073706f742e636f6d2f6f2f4a535f43657274696669636174652e706e673f616c743d6d6564696126746f6b656e3d30323435623466632d326234302d346336632d623561302d346132643463653731646237",
+      validation: "https://www.hackerrank.com/certificates/9e368c3eaf08",
+    },
+    {
+      name: "ReactJS Certification",
+      company: "HackerRank",
+      period: "Sep 2022",
+      image:
+        "https://camo.githubusercontent.com/b535e6dfe00e67bf04bf07f1dccbe62bfb246cf5bdffe3f748889d05bf979634/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6e656f73746174732e61707073706f742e636f6d2f6f2f6861636b657252616e6b52656163742e706e673f616c743d6d6564696126746f6b656e3d63383931643966362d643266642d346365622d623263332d366434396534303832363330",
+      validation: "https://www.hackerrank.com/certificates/c59295f6b074",
+    },
+    {
+      name: "JavaScript Algorithm & Data Structure",
+      company: "freeCodeCamp",
+      period: "Feb 2022",
+      image:
+        "https://camo.githubusercontent.com/b16db54aa95869efd492de6f11d6053d0beced8fc5264939709feadb9afed14c/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6e656f73746174732e61707073706f742e636f6d2f6f2f46726565436f646543616d704a61766153637269707444534143657274696669636174652e4a50473f616c743d6d6564696126746f6b656e3d39323932356264332d623239302d343737372d383363302d633136316365303638333738",
+      validation:
+        "https://www.freecodecamp.org/certification/fcc941f040c-469d-4129-ab2a-f1bd3535cc55/javascript-algorithms-and-data-structures",
+    },
+  ],
   blog: [
     {
       href: "https://codingstepbystep.ttrc.in/blog/redux-4-0",
@@ -98,12 +146,14 @@ const data = {
   ],
   whatido: [
     {
+      id: "1",
       title: "Mobile App Development",
       icon: "./assets/images/icon-app.svg",
       description:
         " Write reusable, clean scalable code and manage coding standards. Integrated several third-party frameworks like Firebase, Google Ads, Facebook Ads, and several payment gateways like Stripe, Paypal, etc.",
     },
     {
+      id: "2",
       title: "Software Development Training",
       icon: "./assets/images/icon-dev.svg",
       description:
